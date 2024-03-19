@@ -145,9 +145,9 @@ public class question1{
     public static void main(String[] args){
         try{
             // Details needed to open a connection to the database
-            String jdbcUrl = "jdbc:postgresql://localhost:5432/A3Q1";
+            String jdbcUrl = "jdbc:postgresql://localhost:5432/*name of database*";
             String username = "postgres";
-            String password = "d@t@SQLbases";
+            String password = "";
             connection = DriverManager.getConnection(jdbcUrl, username, password);
             System.out.println("Connected to Database");
 
